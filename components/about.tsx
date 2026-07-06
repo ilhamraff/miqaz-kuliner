@@ -29,27 +29,14 @@ export function About() {
               id="about-heading"
               className="mt-3 font-heading text-3xl font-bold tracking-tight text-dark-green md:text-4xl"
             >
-              Preserving Indonesian Culinary Heritage
+              Cerita di Balik Miqaz
             </h2>
             <div className="mt-6 space-y-4 text-base leading-relaxed text-dark-green/70">
               <p>
-                Miqaz Nusantara Kuliner was born from a deep passion for
-                Indonesia&apos;s rich culinary traditions. Founded with a mission
-                to bring the authentic flavors of the archipelago to every
-                household, we specialize in premium frozen seafood products that
-                honor centuries-old recipes.
+                Miqaz berawal dari Pempek Moenz, UMKM asli Palembang yang berdiri sejak 2019. Berlandaskan kecintaan pendirinya, Munziar Munaf, terhadap kuliner tradisional Nusantara, usaha ini mengolah potensi perikanan lokal menjadi produk ikan yang bergizi, praktis, dan premium.
               </p>
               <p>
-                Our journey began in a small kitchen where traditional family
-                recipes met modern food technology. Today, we operate a
-                certified production facility that combines time-honored cooking
-                methods with state-of-the-art flash-freezing technology.
-              </p>
-              <p>
-                Every product that leaves our facility carries the soul of
-                Indonesian cuisine — carefully crafted, rigorously tested, and
-                frozen at peak freshness to ensure that the first bite is always
-                as extraordinary as the last.
+                Pada 11 Juli 2026, Pempek Moenz resmi bertransformasi menjadi Miqaz sebagai langkah menghadirkan cita rasa warisan daerah dalam identitas yang lebih modern.
               </p>
             </div>
 

@@ -15,29 +15,24 @@ interface ProcessStep {
 
 const steps: ProcessStep[] = [
   {
-    icon: Fish,
-    title: "Fresh Fish",
-    description: "Sourced from trusted local fishermen daily",
+    icon: Package,
+    title: "Vacuum Eco-Packaging:",
+    description: "Kemasan food-grade hampa udara untuk menjaga kualitas produk.",
   },
   {
     icon: Factory,
-    title: "Hygienic Processing",
-    description: "Prepared in a certified clean facility",
+    title: "Pengawetan Alami",
+    description: "Dibekukan tanpa pengawet sintetis agar rasa tetap autentik.",
   },
   {
     icon: Package,
-    title: "Vacuum Packaging",
-    description: "Sealed to preserve freshness and flavor",
+    title: "Alur Terstandardisasi",
+    description: "Mulai dari fillet, sterilisasi, hingga pembekuan cepat.",
   },
   {
     icon: Thermometer,
-    title: "Frozen Storage",
-    description: "Flash-frozen at optimal temperature",
-  },
-  {
-    icon: Truck,
-    title: "Delivered Fresh",
-    description: "Cold-chain delivery to your doorstep",
+    title: "Siap Scale-Up",
+    description: "Produksi modular siap memenuhi permintaan lebih besar.",
   },
 ];
 
@@ -47,7 +42,7 @@ export function ProductionProcess() {
       className="bg-warm-beige py-24 lg:py-32"
       aria-labelledby="process-heading"
     >
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-4xl px-6 lg:px-8">
         {/* Section header */}
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-gold">
@@ -57,11 +52,10 @@ export function ProductionProcess() {
             id="process-heading"
             className="mt-3 font-heading text-3xl font-bold tracking-tight text-dark-green md:text-4xl"
           >
-            From Ocean to Your Table
+            Teknologi & Skalabilitas Produksi
           </h2>
           <p className="mt-4 text-base leading-relaxed text-dark-green/60">
-            Every step of our production is designed to deliver the freshest,
-            most authentic frozen seafood experience.
+            Setiap tahapan proses produksi dirancang untuk menghadirkan cita rasa yang paling otentik dan berkualitas tinggi.
           </p>
         </div>
 
@@ -85,11 +79,6 @@ export function ProductionProcess() {
                   <div className="relative z-10 flex size-12 items-center justify-center rounded-full border-2 border-gold bg-white text-gold">
                     <Icon className="size-5" aria-hidden="true" />
                   </div>
-
-                  {/* Step number */}
-                  <span className="mt-3 text-xs font-semibold uppercase tracking-wider text-gold">
-                    Step {index + 1}
-                  </span>
 
                   {/* Step content */}
                   <h3 className="mt-2 font-heading text-sm font-semibold text-dark-green">

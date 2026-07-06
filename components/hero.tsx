@@ -10,22 +10,21 @@ export function Hero() {
       id="home"
       className="relative overflow-hidden bg-cream"
     >
-      <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-32">
+      <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           {/* Text content */}
           <div className="order-2 lg:order-1">
             <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-gold">
-              Premium Frozen Culinary
+              Kuliner Nusantara
             </p>
             <h1 className="font-heading text-4xl font-bold leading-tight tracking-tight text-dark-green md:text-5xl lg:text-6xl">
-              Premium Frozen Fish Culinary{" "}
-              <span className="text-gold">from Indonesia</span>
+              Authentic <span className="text-gold">Fish</span> Authentic <span className="text-gold">Taste</span>{" "}
+              
             </h1>
             <p className="mt-6 max-w-lg text-base leading-relaxed text-dark-green/70 md:text-lg">
-              Crafted from 100% fresh fish with authentic Indonesian recipes.
-              Every product is prepared in a hygienic facility and sealed with
-              frozen-fresh technology to preserve its authentic taste — from our
-              kitchen to your table.
+              Dibuat dari 100% ikan segar dengan resep autentik Nusantara. 
+              Setiap produk diproses secara higienis dan dibekukan menggunakan teknologi frozen fresh untuk menjaga cita rasa, 
+              kualitas, dan kesegarannya—dari dapur kami hingga ke meja makan Anda.
             </p>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <Link

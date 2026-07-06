@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Poppins, Playfair_Display } from "next/font/google";
+import { Poppins, Montserrat } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
@@ -9,8 +9,8 @@ const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
 });
 
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
 });
@@ -44,21 +44,32 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Miqaz Nusantara Kuliner — Premium Frozen Fish Culinary",
-    description:
-      "Premium frozen seafood crafted with authentic Indonesian recipes, fresh fish, and frozen-fresh technology.",
-    url: "https://miqazkuliner.vercel.app",
-    siteName: "Miqaz Nusantara Kuliner",
-    locale: "id_ID",
-    type: "website",
-  },
+  title: "Miqaz Nusantara Kuliner",
+  description:
+    "Premium frozen seafood crafted with authentic Indonesian recipes.",
+  url: "https://miqazkuliner.vercel.app",
+  siteName: "Miqaz Nusantara Kuliner",
+  locale: "id_ID",
+  type: "website",
+
+  images: [
+    {
+      url: "/images/hero-alter.jpeg",
+      width: 1200,
+      height: 630,
+      alt: "Miqaz Nusantara Kuliner",
+    },
+  ],
+},
 
   twitter: {
-    card: "summary_large_image",
-    title: "Miqaz Nusantara Kuliner — Premium Frozen Fish Culinary",
-    description:
-      "Premium frozen seafood crafted with authentic Indonesian recipes, fresh fish, and frozen-fresh technology.",
-  },
+  card: "summary_large_image",
+  title: "Miqaz Nusantara Kuliner",
+  description:
+    "Premium frozen seafood crafted with authentic Indonesian recipes.",
+
+  images: ["/images/hero-alter.jpeg"],
+},
 };
 
 export default function RootLayout({
@@ -72,7 +83,7 @@ export default function RootLayout({
       className={cn(
         "h-full antialiased",
         poppins.variable,
-        playfair.variable
+        montserrat.variable
       )}
     >
       <body className="min-h-full flex flex-col font-sans">{children}</body>

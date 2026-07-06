@@ -55,13 +55,13 @@ function ProductCard({ name, description, image, alt }: ProductCardProps) {
         <p className="mt-3 text-sm leading-relaxed text-dark-green/60">
           {description}
         </p>
-        <Link
+        {/* <Link
           href="#products"
           className="mt-4 inline-flex h-auto items-center gap-1.5 p-0 text-sm font-semibold text-gold underline-offset-4 transition-colors hover:text-gold-dark hover:underline"
         >
           Learn More
           <ArrowRight className="size-3.5 transition-transform group-hover:translate-x-1" />
-        </Link>
+        </Link> */}
       </div>
     </article>
   );
@@ -84,11 +84,10 @@ export function FeaturedProducts() {
             id="products-heading"
             className="mt-3 font-heading text-3xl font-bold tracking-tight text-dark-green md:text-4xl"
           >
-            Premium Frozen Selections
+            Produk Unggulan Kami
           </h2>
           <p className="mt-4 text-base leading-relaxed text-dark-green/60">
-            Each product is carefully crafted to deliver the authentic taste of
-            Indonesian culinary heritage — frozen fresh, ready to enjoy.
+            Setiap produk dibuat dengan resep autentik, bahan segar, dan teknologi pembekuan higienis.
           </p>
         </div>
 

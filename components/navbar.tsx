@@ -46,11 +46,11 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2" aria-label="Miqaz Nusantara Kuliner home">
           <span className="font-heading text-2xl font-bold tracking-tight text-gold">
-            Miqaz
+            MIQAZ
           </span>
-          <span className="hidden text-sm font-medium tracking-wide text-dark-green sm:inline">
+          {/* <span className="hidden text-sm font-medium tracking-wide text-dark-green sm:inline">
             Nusantara Kuliner
-          </span>
+          </span> */}
         </Link>
 
         {/* Desktop navigation */}

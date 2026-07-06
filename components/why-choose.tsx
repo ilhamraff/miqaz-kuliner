@@ -10,27 +10,27 @@ interface FeatureCardProps {
 const features: FeatureCardProps[] = [
   {
     icon: Fish,
-    title: "100% Fresh Fish",
+    title: "100% Ikan Segar",
     description:
-      "We source only the freshest catch from trusted local fishermen, ensuring every product starts with the highest quality ingredients.",
+      "Menggunakan daging ikan segar berkualitas premium tanpa menggunakan bahan kimia pemutih yang berbahaya.",
   },
   {
     icon: ChefHat,
-    title: "Authentic Indonesian Recipe",
+    title: "Resep Autentik Nusantara",
     description:
-      "Our recipes are passed down through generations, capturing the true essence of Indonesian culinary heritage in every bite.",
+      "Rasio bumbu alami yang presisi untuk menghasilkan rasa gurih khas warisan asli daerah Nusantara.",
   },
   {
     icon: ShieldCheck,
-    title: "Hygienic & Halal",
+    title: "Higienis & Halal",
     description:
-      "Produced in a certified hygienic facility with strict halal standards, giving you peace of mind with every purchase.",
+      "Diproses super bersih dengan kepatuhan tinggi terhadap standardisasi kebersihan pabrik modern.",
   },
   {
     icon: Snowflake,
-    title: "Frozen Fresh Technology",
+    title: "Kualitas Terjaga",
     description:
-      "Advanced flash-freezing technology locks in nutrients and flavor at peak freshness, so it tastes just like it was freshly made.",
+      "Kesegaran gizi dikunci melalui pengemasan terbaik tanpa mengandalkan pengawet sintetis.",
   },
 ];
 
@@ -63,11 +63,10 @@ export function WhyChoose() {
             id="why-choose-heading"
             className="mt-3 font-heading text-3xl font-bold tracking-tight text-dark-green md:text-4xl"
           >
-            Crafted with Care, Delivered with Quality
+            Kenapa Memilih Kami
           </h2>
           <p className="mt-4 text-base leading-relaxed text-dark-green/60">
-            Every product reflects our commitment to quality, tradition, and
-            innovation — from fresh catch to your doorstep.
+            Setiap produk mencerminkan komitmen kami terhadap kualitas, tradisi, dan inovasi — dari tangkapan segar hingga sampai di tangan Anda.
           </p>
         </div>
 
