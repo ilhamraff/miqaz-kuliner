@@ -49,24 +49,23 @@ export function Gallery() {
   return (
     <section
       id="gallery"
-      className="bg-warm-beige py-24 lg:py-32"
+      className="bg-yellow-brand py-24 lg:py-32"
       aria-labelledby="gallery-heading"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Section header */}
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-widest text-gold">
+          <p className="text-sm font-semibold uppercase tracking-widest text-red-brand">
             Gallery
           </p>
           <h2
             id="gallery-heading"
             className="mt-3 font-heading text-3xl font-bold tracking-tight text-dark-green md:text-4xl"
           >
-            A Glimpse of Our Craft
+            Produk Kami
           </h2>
           <p className="mt-4 text-base leading-relaxed text-dark-green/60">
-            From raw ingredients to beautifully plated dishes — explore the
-            artistry behind every Miqaz creation.
+            Dari bahan baku hingga hidangan yang disajikan — jelajahi kelezatan setiap produk Miqaz
           </p>
         </div>
 

@@ -39,13 +39,13 @@ const steps: ProcessStep[] = [
 export function ProductionProcess() {
   return (
     <section
-      className="bg-warm-beige py-24 lg:py-32"
+      className="bg-yellow-brand py-24 lg:py-32"
       aria-labelledby="process-heading"
     >
       <div className="mx-auto max-w-4xl px-6 lg:px-8">
         {/* Section header */}
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-widest text-gold">
+          <p className="text-sm font-bold uppercase tracking-widest text-red-brand">
             Our Process
           </p>
           <h2
@@ -64,7 +64,7 @@ export function ProductionProcess() {
           <div className="relative flex items-start justify-between">
             {/* Connecting line */}
             <div
-              className="absolute top-6 left-[10%] right-[10%] h-px bg-gold/30"
+              className="absolute top-6 left-[10%] right-[10%] h-px bg-red-brand"
               aria-hidden="true"
             />
 
@@ -76,7 +76,7 @@ export function ProductionProcess() {
                   className="relative flex w-1/5 flex-col items-center text-center"
                 >
                   {/* Step circle */}
-                  <div className="relative z-10 flex size-12 items-center justify-center rounded-full border-2 border-gold bg-white text-gold">
+                  <div className="relative z-10 flex size-12 items-center justify-center rounded-full border-2 border-red-brand bg-white text-red-brand">
                     <Icon className="size-5" aria-hidden="true" />
                   </div>
 
@@ -98,7 +98,7 @@ export function ProductionProcess() {
           <div className="relative space-y-8 pl-8">
             {/* Vertical line */}
             <div
-              className="absolute top-2 bottom-2 left-3 w-px bg-gold/30"
+              className="absolute top-2 bottom-2 left-3 w-px bg-red-brand"
               aria-hidden="true"
             />
 
@@ -107,18 +107,15 @@ export function ProductionProcess() {
               return (
                 <div key={step.title} className="relative flex gap-6">
                   {/* Step dot */}
-                  <div className="absolute -left-8 flex size-6 items-center justify-center rounded-full border-2 border-gold bg-white">
-                    <div className="size-2 rounded-full bg-gold" />
+                  <div className="absolute -left-8 flex size-6 items-center justify-center rounded-full border-2 border-red-brand bg-white">
+                    <div className="size-2 rounded-full bg-red-brand" />
                   </div>
 
                   {/* Step content */}
                   <div>
-                    <span className="text-xs font-semibold uppercase tracking-wider text-gold">
-                      Step {index + 1}
-                    </span>
-                    <h3 className="mt-1 flex items-center gap-2 font-heading text-base font-semibold text-dark-green">
+                    <h3 className="mt-0 flex items-center gap-2 font-heading text-base font-semibold text-dark-green">
                       <Icon
-                        className="size-4 text-gold"
+                        className="size-4 text-red-brand mb-1"
                         aria-hidden="true"
                       />
                       {step.title}

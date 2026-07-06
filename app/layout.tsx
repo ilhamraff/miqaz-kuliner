@@ -20,8 +20,8 @@ export const metadata: Metadata = {
 
   title: {
     default:
-      "Miqaz Nusantara Kuliner — Premium Frozen Fish Culinary from Indonesia",
-    template: "%s | Miqaz Nusantara Kuliner",
+      "Miqaz Kuliner Nusantara — Premium Frozen Fish Culinary from Indonesia",
+    template: "%s | Miqaz Kuliner Nusantara",
   },
 
   description:
@@ -44,31 +44,31 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-  title: "Miqaz Nusantara Kuliner",
+  title: "Miqaz Kuliner Nusantara",
   description:
     "Premium frozen seafood crafted with authentic Indonesian recipes.",
   url: "https://miqazkuliner.vercel.app",
-  siteName: "Miqaz Nusantara Kuliner",
+  siteName: "Miqaz Kuliner Nusantara",
   locale: "id_ID",
   type: "website",
 
   images: [
     {
-      url: "/images/hero-alter.jpeg",
+      url: "/images/og-image.png",
       width: 1200,
       height: 630,
-      alt: "Miqaz Nusantara Kuliner",
+      alt: "Miqaz Kuliner Nusantara",
     },
   ],
 },
 
   twitter: {
   card: "summary_large_image",
-  title: "Miqaz Nusantara Kuliner",
+  title: "Miqaz Kuliner Nusantara",
   description:
     "Premium frozen seafood crafted with authentic Indonesian recipes.",
 
-  images: ["/images/hero-alter.jpeg"],
+  images: ["/images/og-image.png"],
 },
 };
 

@@ -23,18 +23,17 @@ export function FinalCta() {
 
       <div className="relative mx-auto max-w-3xl px-6 text-center lg:px-8">
         <p className="text-sm font-semibold uppercase tracking-widest text-gold">
-          Ready to Order?
+          Siap Memesan?
         </p>
         <h2
           id="cta-heading"
           className="mt-4 font-heading text-3xl font-bold tracking-tight text-white md:text-4xl lg:text-5xl"
         >
-          Taste the Authentic Flavors of Indonesia
+          Nikmati Cita Rasa Autentik Indonesia
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-white/70">
-          Experience premium frozen seafood crafted with love and tradition.
-          Order now through WhatsApp and enjoy restaurant-quality dishes in the
-          comfort of your home.
+          Pesan sekarang melalui WhatsApp dan nikmati hidangan berkualitas restoran
+          di kenyamanan rumah Anda.
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -48,10 +47,10 @@ export function FinalCta() {
             )}
           >
             <MessageCircle className="size-4" />
-            Order via WhatsApp
+            Pesan via WhatsApp
           </a>
           <p className="text-xs text-white/50">
-            Fast response • Free consultation
+            Respon Cepat • Konsultasi Gratis
           </p>
         </div>
       </div>

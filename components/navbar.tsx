@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";
 import {
@@ -10,7 +10,7 @@ import {
   SheetHeader,
   SheetTitle,
 } from "@/components/ui/sheet";
-import { Menu } from "lucide-react";
+import { Menu, ArrowUp } from "lucide-react";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -21,36 +21,31 @@ const navLinks = [
 ];
 
 export function Navbar() {
-  const [scrolled, setScrolled] = useState(false);
+  const [showScrollTop, setShowScrollTop] = useState(false);
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 20);
+    const onScroll = () => setShowScrollTop(window.scrollY > 300);
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  const scrollToTop = useCallback(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
 
   return (
     <header
       id="navbar"
-      className={`sticky top-0 z-50 w-full transition-all duration-300 ${
-        scrolled
-          ? "bg-white/95 shadow-sm backdrop-blur-md"
-          : "bg-white"
-      }`}
+      className="w-full bg-white"
     >
       <nav
-        className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-8"
+        className="mx-auto flex h-auto max-w-7xl items-center justify-between px-6 py-4 lg:px-8"
         aria-label="Main navigation"
       >
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2" aria-label="Miqaz Nusantara Kuliner home">
-          <span className="font-heading text-2xl font-bold tracking-tight text-gold">
-            MIQAZ
-          </span>
-          {/* <span className="hidden text-sm font-medium tracking-wide text-dark-green sm:inline">
-            Nusantara Kuliner
-          </span> */}
+          <img src="/images/logo.png" alt="Miqaz Nusantara Kuliner" className="h-15 w-auto lg:h-25 lg:w-auto" />
         </Link>
 
         {/* Desktop navigation */}
@@ -71,9 +66,9 @@ export function Navbar() {
         <div className="hidden lg:block">
           <Link
             href="#contact"
-            className={buttonVariants({ size: "lg", className: "bg-gold px-6 text-sm font-semibold text-white hover:bg-gold-dark" })}
+            className={buttonVariants({ size: "lg", className: "bg-red-brand px-6 rounded-full text-sm font-semibold text-white hover:bg-dark-red" })}
           >
-            Order Now
+            Pesan Sekarang
           </Link>
         </div>
 
@@ -107,9 +102,9 @@ export function Navbar() {
                   <Link
                     href="#contact"
                     onClick={() => setOpen(false)}
-                    className="flex w-full items-center justify-center rounded-lg bg-gold px-6 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-gold-dark"
+                    className="flex w-full items-center justify-center rounded-lg bg-red-brand px-6 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-dark-red"
                   >
-                    Order Now
+                    Pesan Sekarang
                   </Link>
                 </div>
               </nav>
@@ -117,6 +112,19 @@ export function Navbar() {
           </Sheet>
         </div>
       </nav>
+
+      {/* Floating scroll-to-top button */}
+      <button
+        onClick={scrollToTop}
+        aria-label="Scroll to top"
+        className={`fixed bottom-6 right-6 z-50 flex size-12 items-center justify-center rounded-full bg-[#BA2C2B] text-white shadow-lg transition-all duration-300 hover:bg-[#9a2423] hover:shadow-xl active:scale-95 ${
+          showScrollTop
+            ? "translate-y-0 opacity-100"
+            : "pointer-events-none translate-y-4 opacity-0"
+        }`}
+      >
+        <ArrowUp className="size-5" />
+      </button>
     </header>
   );
 }

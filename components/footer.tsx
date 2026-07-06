@@ -28,8 +28,9 @@ export function Footer() {
               </span>
             </Link>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/60">
-              Premium frozen fish culinary from Indonesia. Bringing authentic
-              flavors to your table with quality you can trust.
+              Hidangan laut beku premium dari Indonesia. Membawa cita rasa
+              autentik ke meja makan Anda dengan kualitas yang dapat
+              dipercaya.
             </p>
             {/* Social links */}
             <div className="mt-6 flex gap-3">

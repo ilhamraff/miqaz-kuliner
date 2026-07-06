@@ -12,11 +12,14 @@
   --font-heading: var(--font-heading);
 
   /* Brand colors */
-  --color-cream: #FFF8F0;
+  --color-cream: #EAC12C;
   --color-warm-beige: #F5EDE3;
+  --color-yellow-brand: #EAC12C;
+  --color-red-brand: #BA2C2B;
   --color-dark-green: #1B3A2D;
+  --color-dark-red: #531313;
   --color-forest: #2D5E3A;
-  --color-gold: #b92b2a;
+  --color-gold: #EAC12C;
   --color-gold-light: #D4B968;
   --color-gold-dark: #B08E30;
 
@@ -72,15 +75,15 @@
   --secondary-foreground: #1B3A2D;
   --muted: #F5EDE3;
   --muted-foreground: #5A6E60;
-  --accent: #b92b2a;
+  --accent: #EAC12C;
   --accent-foreground: #1B3A2D;
   --destructive: oklch(0.577 0.245 27.325);
   --border: #E8DFD3;
   --input: #E8DFD3;
-  --ring: #b92b2a;
+  --ring: #EAC12C;
   --chart-1: #1B3A2D;
   --chart-2: #2D5E3A;
-  --chart-3: #b92b2a;
+  --chart-3: #EAC12C;
   --chart-4: #D4B968;
   --chart-5: #F5EDE3;
   --radius: 0.5rem;
@@ -91,7 +94,7 @@
   --sidebar-accent: #F5EDE3;
   --sidebar-accent-foreground: #1B3A2D;
   --sidebar-border: #E8DFD3;
-  --sidebar-ring: #b92b2a;
+  --sidebar-ring: #EAC12C;
 
   --font-heading: var(--font-playfair);
 }

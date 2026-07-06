@@ -5,7 +5,7 @@ import { FeaturedProducts } from "@/components/featured-products";
 import { ProductionProcess } from "@/components/production-process";
 import { About } from "@/components/about";
 import { Gallery } from "@/components/gallery";
-import { Faq } from "@/components/faq";
+import { Testimonials } from "@/components/faq";
 import { FinalCta } from "@/components/final-cta";
 import { Footer } from "@/components/footer";
 
@@ -20,7 +20,7 @@ export default function Home() {
         <ProductionProcess />
         <About />
         <Gallery />
-        <Faq />
+        <Testimonials />
         <FinalCta />
       </main>
       <Footer />

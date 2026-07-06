@@ -1,83 +1,90 @@
-import {
-  Accordion,
-  AccordionItem,
-  AccordionTrigger,
-  AccordionContent,
-} from "@/components/ui/accordion";
+import { Quote } from "lucide-react";
 
-interface FaqItem {
-  question: string;
-  answer: string;
+interface Testimonial {
+  content: string;
+  name: string;
+  role: string;
 }
 
-const faqItems: FaqItem[] = [
+const testimonials: Testimonial[] = [
   {
-    question: "What makes Miqaz products different from other frozen foods?",
-    answer:
-      "Our products are crafted exclusively from 100% fresh fish using authentic Indonesian recipes passed down through generations. We use advanced flash-freezing technology that locks in nutrients and flavor at peak freshness, ensuring restaurant-quality taste in every bite. Our facility is halal-certified and meets strict hygiene standards.",
+    content:
+      "Trimakasih bu Moenz. Penpeknya enak, ikannya terasa. Pempeknya juga empuk ga alot.",
+    name: "Euis Supriati",
+    role: "Business Development Centre",
   },
   {
-    question: "How should I store the products after delivery?",
-    answer:
-      "All Miqaz products should be stored in your freezer at -18°C or below immediately upon delivery. Our vacuum-sealed packaging preserves freshness for up to 3 months when stored properly. Once thawed, products should be consumed within 24 hours for the best taste experience.",
-  },
-  {
-    question: "Are your products halal certified?",
-    answer:
-      "Yes, all Miqaz Nusantara Kuliner products are halal certified. Our entire production process — from ingredient sourcing to packaging — adheres to strict halal standards. We are committed to providing products that meet the dietary requirements of our customers.",
-  },
-  {
-    question: "What areas do you deliver to?",
-    answer:
-      "We currently deliver across major cities in Indonesia using cold-chain logistics to ensure products arrive in perfect frozen condition. For specific delivery areas and shipping options, please contact us via WhatsApp and our team will be happy to assist you.",
-  },
-  {
-    question: "How do I place an order?",
-    answer:
-      "Ordering is easy! Simply click the 'Order Now' button or contact us directly via WhatsApp. Our friendly team will guide you through the product selection, confirm your order details, and arrange delivery to your preferred address.",
+    content:
+      "Pempek dari Miqaz, lezat dan enak. Apalagi cuko nya yang manis dan pedasnya pas.. buat aku yang gak doyan pedas. Sukses untuk Miqaz food ditunggu produk lainnya ya. Salam.",
+    name: "Djarot MK",
+    role: "Jurnalis TIMES Indonesia",
   },
 ];
 
-export function Faq() {
+export function Testimonials() {
   return (
     <section
       className="bg-white py-24 lg:py-32"
-      aria-labelledby="faq-heading"
+      aria-labelledby="testimonials-heading"
     >
-      <div className="mx-auto max-w-3xl px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Section header */}
-        <div className="text-center">
-          <p className="text-sm font-semibold uppercase tracking-widest text-gold">
-            FAQ
+        <div className="text-center pb-4 pt-8">
+          <p className="text-sm font-bold uppercase tracking-widest text-red-brand">
+            Testimonial
           </p>
           <h2
-            id="faq-heading"
+            id="testimonials-heading"
             className="mt-3 font-heading text-3xl font-bold tracking-tight text-dark-green md:text-4xl"
           >
-            Frequently Asked Questions
+            Apa Kata Mereka?
           </h2>
           <p className="mt-4 text-base leading-relaxed text-dark-green/60">
-            Everything you need to know about our products and ordering process.
+            Testimoni pelanggan yang telah merasakan kelezatan produk Miqaz.
           </p>
         </div>
 
-        {/* Accordion */}
-        <div className="mt-12">
-          <Accordion>
-            {faqItems.map((item, index) => (
-              <AccordionItem
-                key={index}
-                className="border-b border-border py-1"
-              >
-                <AccordionTrigger className="py-5 text-left text-base font-medium text-dark-green hover:no-underline [&>svg]:text-gold">
-                  {item.question}
-                </AccordionTrigger>
-                <AccordionContent className="text-dark-green/70">
-                  <p>{item.answer}</p>
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
+        {/* Testimonial cards */}
+        <div className="mt-14 grid gap-8 md:grid-cols-2">
+          {testimonials.map((testimonial) => (
+            <div
+              key={testimonial.name}
+              className="relative rounded-2xl border border-dark-green/10 bg-white p-8 shadow-sm transition-shadow duration-300 hover:shadow-lg"
+            >
+              {/* Quote icon */}
+              <Quote
+                className="size-8 text-yellow-brand/60"
+                aria-hidden="true"
+              />
+
+              {/* Content */}
+              <blockquote className="mt-4">
+                <p className="text-base leading-relaxed text-dark-green/80 italic">
+                  &ldquo;{testimonial.content}&rdquo;
+                </p>
+              </blockquote>
+
+              {/* Author */}
+              <div className="mt-6 flex items-center gap-4">
+                {/* Avatar placeholder */}
+                <div className="flex size-11 items-center justify-center rounded-full bg-yellow-brand text-sm font-bold text-white">
+                  {testimonial.name
+                    .split(" ")
+                    .map((n) => n[0])
+                    .join("")
+                    .slice(0, 2)}
+                </div>
+                <div>
+                  <p className="text-sm font-semibold text-dark-green">
+                    {testimonial.name}
+                  </p>
+                  <p className="text-xs text-dark-green/50">
+                    {testimonial.role}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

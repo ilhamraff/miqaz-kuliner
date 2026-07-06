@@ -8,9 +8,9 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="relative overflow-hidden bg-cream"
+      className="relative overflow-hidden bg-white"
     >
-      <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
+      <div className="mx-auto max-w-7xl px-6 pt-10 pb-20 lg:px-8 lg:pt-16 lg:pb-28">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           {/* Text content */}
           <div className="order-2 lg:order-1">
@@ -34,7 +34,7 @@ export function Hero() {
                   "inline-flex items-center gap-2 bg-gold px-8 py-3 text-sm font-semibold text-white hover:bg-gold-dark"
                 )}
               >
-                Explore Products
+                Jelajahi Produk
                 <ArrowRight className="size-4" />
               </Link>
               <a
@@ -47,7 +47,7 @@ export function Hero() {
                 )}
               >
                 <MessageCircle className="size-4" />
-                Contact WhatsApp
+                Hubungi Kami
               </a>
             </div>
           </div>

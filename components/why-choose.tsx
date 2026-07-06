@@ -52,11 +52,11 @@ function FeatureCard({ icon: Icon, title, description }: FeatureCardProps) {
 
 export function WhyChoose() {
   return (
-    <section className="bg-warm-beige py-24 lg:py-32" aria-labelledby="why-choose-heading">
+    <section className="bg-yellow-brand py-24 lg:py-32" aria-labelledby="why-choose-heading">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Section header */}
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-widest text-gold">
+          <p className="text-sm font-bold uppercase tracking-widest text-red-brand">
             Why Choose Us
           </p>
           <h2
