@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
 interface ProductCardProps {
@@ -38,7 +37,7 @@ function ProductCard({ name, description, image, alt }: ProductCardProps) {
   return (
     <article className="group overflow-hidden rounded-xl border border-border bg-white transition-all duration-300 hover:shadow-xl hover:shadow-dark-green/5">
       {/* Product image */}
-      <div className="relative aspect-[4/3] overflow-hidden">
+      <div className="relative aspect-4/3 overflow-hidden">
         <Image
           src={image}
           alt={alt}
@@ -56,14 +55,13 @@ function ProductCard({ name, description, image, alt }: ProductCardProps) {
         <p className="mt-3 text-sm leading-relaxed text-dark-green/60">
           {description}
         </p>
-        <Button
-          variant="link"
-          className="mt-4 h-auto gap-1.5 p-0 text-sm font-semibold text-gold hover:text-gold-dark"
-          render={<Link href="#products" />}
+        <Link
+          href="#products"
+          className="mt-4 inline-flex h-auto items-center gap-1.5 p-0 text-sm font-semibold text-gold underline-offset-4 transition-colors hover:text-gold-dark hover:underline"
         >
           Learn More
           <ArrowRight className="size-3.5 transition-transform group-hover:translate-x-1" />
-        </Button>
+        </Link>
       </div>
     </article>
   );

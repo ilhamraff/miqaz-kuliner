@@ -10,7 +10,7 @@ export function About() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
           {/* Image */}
-          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-warm-beige">
+          <div className="relative aspect-4/3 overflow-hidden rounded-2xl bg-warm-beige">
             <Image
               src="/images/about-kitchen.png"
               alt="Miqaz Nusantara Kuliner production facility"

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import { ArrowRight, MessageCircle } from "lucide-react";
 
 export function Hero() {
@@ -27,29 +28,28 @@ export function Hero() {
               kitchen to your table.
             </p>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-              <Button
-                className="inline-flex items-center gap-2 bg-gold px-8 py-3 text-sm font-semibold text-white hover:bg-gold-dark"
-                size="lg"
-                render={<Link href="#products" />}
+              <Link
+                href="#products"
+                className={cn(
+                  buttonVariants({ size: "lg" }),
+                  "inline-flex items-center gap-2 bg-gold px-8 py-3 text-sm font-semibold text-white hover:bg-gold-dark"
+                )}
               >
                 Explore Products
                 <ArrowRight className="size-4" />
-              </Button>
-              <Button
-                variant="outline"
-                className="inline-flex items-center gap-2 border-dark-green/20 px-8 py-3 text-sm font-semibold text-dark-green hover:bg-dark-green/5"
-                size="lg"
-                render={
-                  <a
-                    href="https://wa.me/6281234567890"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  />
-                }
+              </Link>
+              <a
+                href="https://wa.me/6281234567890"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={cn(
+                  buttonVariants({ variant: "outline", size: "lg" }),
+                  "inline-flex items-center gap-2 border-dark-green/20 px-8 py-3 text-sm font-semibold text-dark-green hover:bg-dark-green/5"
+                )}
               >
                 <MessageCircle className="size-4" />
                 Contact WhatsApp
-              </Button>
+              </a>
             </div>
           </div>
 

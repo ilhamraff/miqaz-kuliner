@@ -1,4 +1,5 @@
-import { Button } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import { MessageCircle } from "lucide-react";
 
 export function FinalCta() {
@@ -37,20 +38,18 @@ export function FinalCta() {
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-          <Button
-            className="inline-flex items-center gap-2 bg-gold px-8 py-3 text-sm font-semibold text-white hover:bg-gold-light"
-            size="lg"
-            render={
-              <a
-                href="https://wa.me/6281234567890"
-                target="_blank"
-                rel="noopener noreferrer"
-              />
-            }
+          <a
+            href="https://wa.me/6281234567890"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={cn(
+              buttonVariants({ size: "lg" }),
+              "inline-flex items-center gap-2 bg-gold px-8 py-3 text-sm font-semibold text-white hover:bg-gold-light"
+            )}
           >
             <MessageCircle className="size-4" />
             Order via WhatsApp
-          </Button>
+          </a>
           <p className="text-xs text-white/50">
             Fast response • Free consultation
           </p>

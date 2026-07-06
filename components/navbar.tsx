@@ -2,27 +2,27 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import {
   Sheet,
   SheetTrigger,
   SheetContent,
   SheetHeader,
   SheetTitle,
-  SheetClose,
 } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 
 const navLinks = [
   { label: "Home", href: "#home" },
   { label: "Products", href: "#products" },
-  { label: "Gallery", href: "#gallery" },
   { label: "About", href: "#about" },
+  { label: "Gallery", href: "#gallery" },
   { label: "Contact", href: "#contact" },
 ];
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -69,24 +69,22 @@ export function Navbar() {
 
         {/* Desktop CTA */}
         <div className="hidden lg:block">
-          <Button
-            className="bg-gold px-6 text-sm font-semibold text-white hover:bg-gold-dark"
-            size="lg"
-            render={<Link href="#contact" />}
+          <Link
+            href="#contact"
+            className={buttonVariants({ size: "lg", className: "bg-gold px-6 text-sm font-semibold text-white hover:bg-gold-dark" })}
           >
             Order Now
-          </Button>
+          </Link>
         </div>
 
         {/* Mobile menu */}
         <div className="lg:hidden">
-          <Sheet>
+          <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger
-              render={
-                <Button variant="ghost" size="icon" aria-label="Open menu" />
-              }
+              className="inline-flex size-8 items-center justify-center rounded-lg text-dark-green transition-colors hover:bg-muted"
+              aria-label="Open menu"
             >
-              <Menu className="size-5 text-dark-green" />
+              <Menu className="size-5" />
             </SheetTrigger>
             <SheetContent side="right" className="w-72 bg-white">
               <SheetHeader>
@@ -96,19 +94,23 @@ export function Navbar() {
               </SheetHeader>
               <nav className="flex flex-col gap-1 px-4" aria-label="Mobile navigation">
                 {navLinks.map((link) => (
-                  <SheetClose key={link.href} render={<Link href={link.href} />}>
-                    <span className="block rounded-lg px-3 py-2.5 text-sm font-medium text-dark-green transition-colors hover:bg-warm-beige">
-                      {link.label}
-                    </span>
-                  </SheetClose>
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    onClick={() => setOpen(false)}
+                    className="block rounded-lg px-3 py-2.5 text-sm font-medium text-dark-green transition-colors hover:bg-warm-beige"
+                  >
+                    {link.label}
+                  </Link>
                 ))}
                 <div className="mt-4 px-3">
-                  <SheetClose
-                    render={<Link href="#contact" />}
+                  <Link
+                    href="#contact"
+                    onClick={() => setOpen(false)}
                     className="flex w-full items-center justify-center rounded-lg bg-gold px-6 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-gold-dark"
                   >
                     Order Now
-                  </SheetClose>
+                  </Link>
                 </div>
               </nav>
             </SheetContent>
