@@ -38,7 +38,7 @@ export function Hero() {
                 <ArrowRight className="size-4" />
               </Link>
               <a
-                href="https://wa.me/6281234567890"
+                href="https://wa.me/6282123400241"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={cn(
@@ -54,12 +54,12 @@ export function Hero() {
 
           {/* Hero image */}
           <div className="order-1 lg:order-2">
-            <div className="relative mx-auto aspect-square max-w-lg overflow-hidden rounded-2xl lg:max-w-none">
+            <div className="relative mx-auto aspect-4/3 max-w-lg overflow-hidden lg:max-w-none">
               <Image
-                src="/images/hero-product.png"
+                src="/images/hero-brand.png"
                 alt="Premium Indonesian pempek fish cake dish beautifully plated"
                 fill
-                className="object-cover"
+                className="object-contain"
                 sizes="(max-width: 768px) 100vw, 50vw"
                 priority
                 loading="eager"

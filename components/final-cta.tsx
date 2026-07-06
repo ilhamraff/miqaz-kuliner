@@ -38,7 +38,7 @@ export function FinalCta() {
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href="https://wa.me/6281234567890"
+            href="https://wa.me/6282123400241"
             target="_blank"
             rel="noopener noreferrer"
             className={cn(

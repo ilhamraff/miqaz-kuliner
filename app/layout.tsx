@@ -20,12 +20,12 @@ export const metadata: Metadata = {
 
   title: {
     default:
-      "Miqaz Kuliner Nusantara — Premium Frozen Fish Culinary from Indonesia",
+      "Miqaz Kuliner Nusantara — Premium local fish culinary",
     template: "%s | Miqaz Kuliner Nusantara",
   },
 
   description:
-    "Discover premium frozen seafood from Indonesia. Pempek Premium, Otak-Otak Panggang, and Rendang Abon Ikan — crafted with authentic recipes, fresh fish, and hygienic frozen technology.",
+    "Premium local fish culinary, menjembatani gaya hidup sehat dengan rasa autentik tradisional",
 
   keywords: [
     "pempek premium",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
   title: "Miqaz Kuliner Nusantara",
   description:
-    "Premium frozen seafood crafted with authentic Indonesian recipes.",
+    "Premium local fish culinary",
   url: "https://miqazkuliner.vercel.app",
   siteName: "Miqaz Kuliner Nusantara",
   locale: "id_ID",
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
   card: "summary_large_image",
   title: "Miqaz Kuliner Nusantara",
   description:
-    "Premium frozen seafood crafted with authentic Indonesian recipes.",
+    "Premium local fish culinary",
 
   images: ["/images/og-image.png"],
 },
