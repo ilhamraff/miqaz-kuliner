@@ -37,6 +37,11 @@ const galleryImages: GalleryImage[] = [
     alt: "Grilled otak-otak ready to serve",
     span: "normal",
   },
+  {
+    src: "/images/product-otakotak.png",
+    alt: "Grilled otak-otak ready to serve",
+    span: "normal",
+  },
 ];
 
 const spanClasses = {

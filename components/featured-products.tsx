@@ -14,21 +14,21 @@ const products: ProductCardProps[] = [
     name: "Pempek Premium",
     description:
       "Dibuat dari 100% ikan tenggiri pilihan dengan resep autentik Nusantara, disajikan bersama cuko khas berbahan alami untuk menghadirkan cita rasa gurih yang autentik dan lebih nyaman dinikmati.",
-    image: "/images/produk-pempek.jpeg",
+    image: "/images/produk-pempek.webp",
     alt: "Pempek premium Miqaz Kuliner Nusantara",
   },
   {
     name: "Otak-Otak Panggang",
     description:
       "Dibungkus daun pisang pilihan dan dipanggang dengan teknik tradisional, menghasilkan aroma khas serta cita rasa autentik yang semakin nikmat dipadukan dengan saus kacang gurih.",
-    image: "/images/produk-otakotak.jpeg",
+    image: "/images/produk-otakotak.webp",
     alt: "Otak-otak panggang Miqaz Kuliner Nusantara",
   },
   {
     name: "Rendang Abon Ikan",
     description:
       "Olahan ikan premium dengan rempah pilihan khas Nusantara yang kaya protein dan Omega-3, praktis disajikan dengan cita rasa rendang autentik yang tetap terjaga.",
-    image: "/images/produk-abon.jpeg",
+    image: "/images/produk-abon.webp",
     alt: "Rendang Abon Ikan Miqaz Kuliner Nusantara",
   },
 ];

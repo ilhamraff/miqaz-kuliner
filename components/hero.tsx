@@ -56,8 +56,8 @@ export function Hero() {
           <div className="order-1 lg:order-2">
             <div className="relative mx-auto aspect-4/3 max-w-lg overflow-hidden lg:max-w-none">
               <Image
-                src="/images/hero-brand.png"
-                alt="Premium Indonesian pempek fish cake dish beautifully plated"
+                src="/images/hero-brand.webp"
+                alt="Hero"
                 fill
                 className="object-contain"
                 sizes="(max-width: 768px) 100vw, 50vw"

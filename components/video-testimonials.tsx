@@ -107,9 +107,9 @@ export function VideoTestimonials() {
 
                 {/* Bottom info overlay */}
                 <div className="absolute bottom-0 left-0 right-0 p-4">
-                  <p className="text-sm font-semibold text-white drop-shadow-md">
+                  {/* <p className="text-sm font-semibold text-white drop-shadow-md">
                     {video.title}
-                  </p>
+                  </p> */}
                   <p className="mt-1 text-xs text-white/80 drop-shadow-md">
                     {video.name}
                   </p>

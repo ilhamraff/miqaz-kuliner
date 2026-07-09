@@ -12,7 +12,7 @@ export function About() {
           {/* Image */}
           <div className="relative aspect-4/3 overflow-hidden rounded-2xl bg-warm-beige">
             <Image
-              src="/images/story.jpeg"
+              src="/images/brand-story.webp"
               alt="Miqaz Nusantara Kuliner production facility"
               fill
               className="object-cover"

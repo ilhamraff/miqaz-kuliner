@@ -20,12 +20,12 @@ export const metadata: Metadata = {
 
   title: {
     default:
-      "Miqaz Kuliner Nusantara — Premium local fish culinary",
+      "Miqaz Kuliner Nusantara",
     template: "%s | Miqaz Kuliner Nusantara",
   },
 
   description:
-    "Premium local fish culinary, menjembatani gaya hidup sehat dengan rasa autentik tradisional",
+    "Olahan Ikan Premium dengan Resep Autentik Khas Nusantara",
 
   keywords: [
     "pempek premium",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
   title: "Miqaz Kuliner Nusantara",
   description:
-    "Premium local fish culinary",
+    "Olahan Ikan Premium dengan Resep Autentik Khas Nusantara",
   url: "https://miqazkuliner.vercel.app",
   siteName: "Miqaz Kuliner Nusantara",
   locale: "id_ID",
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
   card: "summary_large_image",
   title: "Miqaz Kuliner Nusantara",
   description:
-    "Premium local fish culinary",
+    "Olahan Ikan Premium dengan Resep Autentik Khas Nusantara",
 
   images: ["/images/og-image.png"],
 },

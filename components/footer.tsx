@@ -106,7 +106,7 @@ export function Footer() {
                   +62 821 2340 0241
                 </a>
               </li>
-              <li className="flex items-start gap-3">
+              {/* <li className="flex items-start gap-3">
                 <Mail
                   className="mt-0.5 size-4 shrink-0 text-gold"
                   aria-hidden="true"
@@ -117,7 +117,7 @@ export function Footer() {
                 >
                   [EMAIL_ADDRESS]
                 </a>
-              </li>
+              </li> */}
               <li className="flex items-start gap-3">
                 <MapPin
                   className="mt-0.5 size-4 shrink-0 text-gold"
