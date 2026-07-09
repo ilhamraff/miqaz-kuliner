@@ -15,16 +15,16 @@ export function Hero() {
           {/* Text content */}
           <div className="order-2 lg:order-1">
             <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-gold">
-              Kuliner Nusantara
+              Mengenal Lebih Dekat Miqaz
             </p>
             <h1 className="font-heading text-4xl font-bold leading-tight tracking-tight text-dark-green md:text-5xl lg:text-6xl">
               Authentic <span className="text-gold">Fish</span> Authentic <span className="text-gold">Taste</span>{" "}
               
             </h1>
             <p className="mt-6 max-w-lg text-base leading-relaxed text-dark-green/70 md:text-lg">
-              Dibuat dari 100% ikan segar dengan resep autentik Nusantara. 
-              Setiap produk diproses secara higienis dan dibekukan menggunakan teknologi frozen fresh untuk menjaga cita rasa, 
-              kualitas, dan kesegarannya—dari dapur kami hingga ke meja makan Anda.
+              Warisan resep Nusantara berpadu dengan 100% ikan pilihan untuk menghadirkan olahan premium yang autentik. 
+              Diproses secara higienis dan dibekukan dengan teknologi frozen fresh, 
+              sehingga cita rasa, kualitas, dan kesegarannya tetap terjaga di setiap sajian.
             </p>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <Link

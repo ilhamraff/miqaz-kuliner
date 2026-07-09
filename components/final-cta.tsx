@@ -23,7 +23,7 @@ export function FinalCta() {
 
       <div className="relative mx-auto max-w-3xl px-6 text-center lg:px-8">
         <p className="text-sm font-semibold uppercase tracking-widest text-gold">
-          Siap Memesan?
+          Siap Menikmati?
         </p>
         <h2
           id="cta-heading"
@@ -32,8 +32,7 @@ export function FinalCta() {
           Nikmati Cita Rasa Autentik Indonesia
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-white/70">
-          Pesan sekarang melalui WhatsApp dan nikmati hidangan berkualitas restoran
-          di kenyamanan rumah Anda.
+          Pesan sekarang melalui WhatsApp dan hadirkan olahan ikan premium bercita rasa autentik untuk melengkapi setiap momen bersama keluarga.
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">

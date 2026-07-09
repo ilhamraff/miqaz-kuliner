@@ -22,15 +22,12 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           {/* Brand column */}
           <div className="lg:col-span-1">
-            <Link href="/" className="inline-block" aria-label="Miqaz home">
-              <span className="font-heading text-2xl font-bold text-gold">
-                Miqaz
-              </span>
+            <Link href="/" className="inline-block" aria-label="Miqaz Nusantara Kuliner home">
+              <img src="/images/logo.png" alt="Miqaz Nusantara Kuliner" className="h-12 w-auto lg:h-16" />
             </Link>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/60">
-              Hidangan laut beku premium dari Indonesia. Membawa cita rasa
-              autentik ke meja makan Anda dengan kualitas yang dapat
-              dipercaya.
+              Melestarikan warisan kuliner Nusantara melalui olahan ikan premium yang autentik, 
+              higienis, dan berkualitas untuk setiap keluarga Indonesia.
             </p>
             {/* Social links */}
             <div className="mt-6 flex gap-3">

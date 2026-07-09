@@ -45,7 +45,7 @@ export function Testimonials() {
         </div>
 
         {/* Testimonial cards */}
-        <div className="mt-14 grid gap-8 md:grid-cols-2">
+        <div className="mt-10 grid gap-8 md:grid-cols-2">
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.name}

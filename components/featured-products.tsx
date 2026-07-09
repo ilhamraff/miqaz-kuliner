@@ -13,23 +13,23 @@ const products: ProductCardProps[] = [
   {
     name: "Pempek Premium",
     description:
-      "Our signature South Sumatran fish cake, made with the finest tenggiri fish and a perfect blend of traditional spices. Served best with rich cuko vinegar sauce.",
+      "Dibuat dari 100% ikan tenggiri pilihan dengan resep autentik Nusantara, disajikan bersama cuko khas berbahan alami untuk menghadirkan cita rasa gurih yang autentik dan lebih nyaman dinikmati.",
     image: "/images/produk-pempek.jpeg",
-    alt: "Pempek premium Indonesian fish cake with vinegar sauce",
+    alt: "Pempek premium Miqaz Kuliner Nusantara",
   },
   {
     name: "Otak-Otak Panggang",
     description:
-      "Grilled fish paste wrapped in fragrant banana leaf, infused with aromatic spices and coconut milk. A classic Indonesian delicacy with a smoky finish.",
+      "Dibungkus daun pisang pilihan dan dipanggang dengan teknik tradisional, menghasilkan aroma khas serta cita rasa autentik yang semakin nikmat dipadukan dengan saus kacang gurih.",
     image: "/images/produk-otakotak.jpeg",
-    alt: "Otak-otak panggang grilled fish cake in banana leaf",
+    alt: "Otak-otak panggang Miqaz Kuliner Nusantara",
   },
   {
     name: "Rendang Abon Ikan",
     description:
-      "Premium dry-shredded fish simmered in a rich rendang sauce with authentic Padang spices. Intensely flavorful, perfect as a topping or side dish.",
+      "Olahan ikan premium dengan rempah pilihan khas Nusantara yang kaya protein dan Omega-3, praktis disajikan dengan cita rasa rendang autentik yang tetap terjaga.",
     image: "/images/produk-abon.jpeg",
-    alt: "Rendang abon ikan dry shredded fish with Padang spices",
+    alt: "Rendang Abon Ikan Miqaz Kuliner Nusantara",
   },
 ];
 

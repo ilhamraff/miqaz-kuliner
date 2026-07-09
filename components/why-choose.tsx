@@ -9,28 +9,28 @@ interface FeatureCardProps {
 
 const features: FeatureCardProps[] = [
   {
-    icon: Fish,
-    title: "100% Ikan Segar",
+    icon: ChefHat,
+    title: "Warisan Resep Leluhur",
     description:
-      "Menggunakan daging ikan segar berkualitas premium tanpa menggunakan bahan kimia pemutih yang berbahaya.",
+      "Resep autentik Nusantara yang diwariskan turun-temurun dan tetap lestari dalam setiap sajian.",
   },
   {
-    icon: ChefHat,
-    title: "Resep Autentik Nusantara",
+    icon: Fish,
+    title: "Ikan Pilihan Berkualitas",
     description:
-      "Rasio bumbu alami yang presisi untuk menghasilkan rasa gurih khas warisan asli daerah Nusantara.",
+      "Menggunakan ikan pilihan premium untuk menghasilkan cita rasa yang konsisten di setiap produk.",
   },
   {
     icon: ShieldCheck,
     title: "Higienis & Halal",
     description:
-      "Diproses super bersih dengan kepatuhan tinggi terhadap standardisasi kebersihan pabrik modern.",
+      "Diproses dengan standar kebersihan tinggi untuk menjaga keamanan dan kualitas pangan.",
   },
   {
     icon: Leaf,
-    title: "Kualitas Terjaga",
+    title: "Kualitas Tetap Terjaga",
     description:
-      "Kesegaran gizi dikunci melalui pengemasan terbaik tanpa mengandalkan pengawet sintetis.",
+      "Dikemas secara modern untuk menjaga kesegaran, cita rasa, dan kualitas hingga siap dinikmati.",
   },
 ];
 
@@ -56,18 +56,22 @@ export function WhyChoose() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Section header */}
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-bold uppercase tracking-widest text-red-brand">
-            Why Choose Us
-          </p>
+          {/* <p className="text-sm font-bold uppercase tracking-widest text-red-brand">
+            Kenalan Bersama Miqaz
+          </p> */}
           <h2
             id="why-choose-heading"
-            className="mt-3 font-heading text-3xl font-bold tracking-tight text-dark-green md:text-4xl"
+            className="mt-3 font-heading text-3xl font-bold tracking-tight text-red-brand md:text-4xl"
           >
-            Kenapa Memilih Kami
+            BRAND STORY
           </h2>
-          <p className="mt-4 text-base leading-relaxed text-dark-green/60">
-            Setiap produk mencerminkan komitmen kami terhadap kualitas, tradisi, dan inovasi — dari tangkapan segar hingga sampai di tangan Anda.
+          <p className="mt-4 text-base leading-relaxed text-dark-green font-semibold">
+            "Tidak semua orang memiliki waktu memasak makanan bergizi setiap hari.
+            Miqaz hadir untuk menghadirkan olahan ikan berkualitas yang praktis, lezat, dan tetap
+            memperahankan cita rasa khas Nusantara. Setiap produk dibuat dengan komitmen pada
+            kualitas, sehingga setiap gigitan membawa kehangatan dan kekayaan rasa Indonesia."
           </p>
+          <p className="mt-4 text-base leading-relaxed text-dark-green/60 italic">— Munziar Munaf Founder Miqaz Kuliner Nusantara</p>
         </div>
 
         {/* Feature grid */}
