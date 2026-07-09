@@ -1,4 +1,4 @@
-import { Fish, ChefHat, ShieldCheck, Snowflake } from "lucide-react";
+import { Fish, ChefHat, ShieldCheck, Leaf } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 interface FeatureCardProps {
@@ -27,7 +27,7 @@ const features: FeatureCardProps[] = [
       "Diproses super bersih dengan kepatuhan tinggi terhadap standardisasi kebersihan pabrik modern.",
   },
   {
-    icon: Snowflake,
+    icon: Leaf,
     title: "Kualitas Terjaga",
     description:
       "Kesegaran gizi dikunci melalui pengemasan terbaik tanpa mengandalkan pengawet sintetis.",
@@ -52,7 +52,7 @@ function FeatureCard({ icon: Icon, title, description }: FeatureCardProps) {
 
 export function WhyChoose() {
   return (
-    <section className="bg-yellow-brand py-24 lg:py-32" aria-labelledby="why-choose-heading">
+    <section className="bg-yellow-brand py-12 lg:py-24" aria-labelledby="why-choose-heading">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Section header */}
         <div className="mx-auto max-w-2xl text-center">

@@ -35,7 +35,7 @@ export function Footer() {
             {/* Social links */}
             <div className="mt-6 flex gap-3">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/miqaz_kuliner/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex size-9 items-center justify-center rounded-lg bg-white/10 text-white/70 transition-colors hover:bg-gold hover:text-white"
@@ -103,10 +103,10 @@ export function Footer() {
                   aria-hidden="true"
                 />
                 <a
-                  href="tel:+6281234567890"
+                  href="#contact"
                   className="text-sm text-white/60 transition-colors hover:text-gold"
                 >
-                  +62 812 3456 7890
+                  +62 821 2340 0241
                 </a>
               </li>
               <li className="flex items-start gap-3">
@@ -115,10 +115,10 @@ export function Footer() {
                   aria-hidden="true"
                 />
                 <a
-                  href="mailto:hello@miqazkuliner.com"
+                  href="mailto:[EMAIL_ADDRESS]"
                   className="text-sm text-white/60 transition-colors hover:text-gold"
                 >
-                  hello@miqazkuliner.com
+                  [EMAIL_ADDRESS]
                 </a>
               </li>
               <li className="flex items-start gap-3">
@@ -127,7 +127,7 @@ export function Footer() {
                   aria-hidden="true"
                 />
                 <span className="text-sm text-white/60">
-                  Jakarta, Indonesia
+                  Bandung, Indonesia
                 </span>
               </li>
             </ul>

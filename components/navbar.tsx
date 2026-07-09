@@ -117,7 +117,7 @@ export function Navbar() {
       <button
         onClick={scrollToTop}
         aria-label="Scroll to top"
-        className={`fixed bottom-6 right-6 z-50 flex size-12 items-center justify-center rounded-full bg-[#BA2C2B] text-white shadow-lg transition-all duration-300 hover:bg-[#9a2423] hover:shadow-xl active:scale-95 ${
+        className={`fixed bottom-6 right-6 z-50 flex size-12 items-center justify-center rounded-full bg-red-brand text-white shadow-lg transition-all duration-300 hover:bg-[#9a2423] hover:shadow-xl active:scale-95 ${
           showScrollTop
             ? "translate-y-0 opacity-100"
             : "pointer-events-none translate-y-4 opacity-0"

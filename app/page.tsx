@@ -6,6 +6,7 @@ import { ProductionProcess } from "@/components/production-process";
 import { About } from "@/components/about";
 import { Gallery } from "@/components/gallery";
 import { Testimonials } from "@/components/faq";
+import { VideoTestimonials } from "@/components/video-testimonials";
 import { FinalCta } from "@/components/final-cta";
 import { Footer } from "@/components/footer";
 
@@ -21,6 +22,7 @@ export default function Home() {
         <About />
         <Gallery />
         <Testimonials />
+        <VideoTestimonials />
         <FinalCta />
       </main>
       <Footer />

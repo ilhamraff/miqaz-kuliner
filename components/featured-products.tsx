@@ -14,21 +14,21 @@ const products: ProductCardProps[] = [
     name: "Pempek Premium",
     description:
       "Our signature South Sumatran fish cake, made with the finest tenggiri fish and a perfect blend of traditional spices. Served best with rich cuko vinegar sauce.",
-    image: "/images/product-pempek.png",
+    image: "/images/produk-pempek.jpeg",
     alt: "Pempek premium Indonesian fish cake with vinegar sauce",
   },
   {
     name: "Otak-Otak Panggang",
     description:
       "Grilled fish paste wrapped in fragrant banana leaf, infused with aromatic spices and coconut milk. A classic Indonesian delicacy with a smoky finish.",
-    image: "/images/product-otakotak.png",
+    image: "/images/produk-otakotak.jpeg",
     alt: "Otak-otak panggang grilled fish cake in banana leaf",
   },
   {
     name: "Rendang Abon Ikan",
     description:
       "Premium dry-shredded fish simmered in a rich rendang sauce with authentic Padang spices. Intensely flavorful, perfect as a topping or side dish.",
-    image: "/images/product-rendang.png",
+    image: "/images/produk-abon.jpeg",
     alt: "Rendang abon ikan dry shredded fish with Padang spices",
   },
 ];
@@ -71,7 +71,7 @@ export function FeaturedProducts() {
   return (
     <section
       id="products"
-      className="bg-white py-24 lg:py-32"
+      className="bg-white py-12 lg:py-24"
       aria-labelledby="products-heading"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">

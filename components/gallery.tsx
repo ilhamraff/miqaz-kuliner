@@ -49,7 +49,7 @@ export function Gallery() {
   return (
     <section
       id="gallery"
-      className="bg-yellow-brand py-24 lg:py-32"
+      className="bg-yellow-brand py-12 lg:py-24"
       aria-labelledby="gallery-heading"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">

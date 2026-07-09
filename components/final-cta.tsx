@@ -6,7 +6,7 @@ export function FinalCta() {
   return (
     <section
       id="contact"
-      className="relative overflow-hidden bg-dark-green py-24 lg:py-32"
+      className="relative overflow-hidden bg-dark-green py-12 lg:py-24"
       aria-labelledby="cta-heading"
     >
       {/* Subtle decorative pattern */}

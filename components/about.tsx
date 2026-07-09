@@ -4,7 +4,7 @@ export function About() {
   return (
     <section
       id="about"
-      className="bg-white py-24 lg:py-32"
+      className="bg-white py-12 lg:py-24"
       aria-labelledby="about-heading"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -12,7 +12,7 @@ export function About() {
           {/* Image */}
           <div className="relative aspect-4/3 overflow-hidden rounded-2xl bg-warm-beige">
             <Image
-              src="/images/about-kitchen.png"
+              src="/images/story.jpeg"
               alt="Miqaz Nusantara Kuliner production facility"
               fill
               className="object-cover"

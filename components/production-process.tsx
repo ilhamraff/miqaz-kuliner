@@ -1,9 +1,8 @@
 import {
-  Fish,
-  Factory,
-  Package,
-  Thermometer,
-  Truck,
+  PackageCheck,
+  Snowflake,
+  ClipboardCheck,
+  TrendingUp,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
@@ -15,22 +14,22 @@ interface ProcessStep {
 
 const steps: ProcessStep[] = [
   {
-    icon: Package,
-    title: "Vacuum Eco-Packaging:",
+    icon: PackageCheck,
+    title: "Vacuum Eco-Packaging",
     description: "Kemasan food-grade hampa udara untuk menjaga kualitas produk.",
   },
   {
-    icon: Factory,
+    icon: Snowflake,
     title: "Pengawetan Alami",
     description: "Dibekukan tanpa pengawet sintetis agar rasa tetap autentik.",
   },
   {
-    icon: Package,
+    icon: ClipboardCheck,
     title: "Alur Terstandardisasi",
     description: "Mulai dari fillet, sterilisasi, hingga pembekuan cepat.",
   },
   {
-    icon: Thermometer,
+    icon: TrendingUp,
     title: "Siap Scale-Up",
     description: "Produksi modular siap memenuhi permintaan lebih besar.",
   },
@@ -39,7 +38,7 @@ const steps: ProcessStep[] = [
 export function ProductionProcess() {
   return (
     <section
-      className="bg-yellow-brand py-24 lg:py-32"
+      className="bg-yellow-brand py-12 lg:py-24"
       aria-labelledby="process-heading"
     >
       <div className="mx-auto max-w-4xl px-6 lg:px-8">

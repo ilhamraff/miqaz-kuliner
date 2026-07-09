@@ -1,4 +1,4 @@
-import { Quote } from "lucide-react";
+import { MessageCircle, Quote } from "lucide-react";
 
 interface Testimonial {
   content: string;
@@ -24,12 +24,12 @@ const testimonials: Testimonial[] = [
 export function Testimonials() {
   return (
     <section
-      className="bg-white py-24 lg:py-32"
+      className="bg-white py-12 lg:py-24"
       aria-labelledby="testimonials-heading"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Section header */}
-        <div className="text-center pb-4 pt-8">
+        <div className="text-center pb-4">
           <p className="text-sm font-bold uppercase tracking-widest text-red-brand">
             Testimonial
           </p>
@@ -68,11 +68,12 @@ export function Testimonials() {
               <div className="mt-6 flex items-center gap-4">
                 {/* Avatar placeholder */}
                 <div className="flex size-11 items-center justify-center rounded-full bg-yellow-brand text-sm font-bold text-white">
-                  {testimonial.name
+                  {/* {testimonial.name
                     .split(" ")
                     .map((n) => n[0])
                     .join("")
-                    .slice(0, 2)}
+                    .slice(0, 2)} */}
+                    <MessageCircle className="size-5"/>
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-dark-green">
