@@ -29,14 +29,14 @@ export function About() {
               id="about-heading"
               className="mt-3 font-heading text-3xl font-bold tracking-tight text-dark-green md:text-4xl"
             >
-              Cerita di Balik Miqaz
+              Cerita di Balik MIQAZ
             </h2>
             <div className="mt-6 space-y-4 text-base leading-relaxed text-dark-green/70">
               <p>
-                Miqaz berawal dari Pempek Moenz, UMKM asli Palembang yang berdiri sejak 2019. Berlandaskan kecintaan pendirinya, Munziar Munaf, terhadap kuliner tradisional Nusantara, usaha ini mengolah potensi perikanan lokal menjadi produk ikan yang bergizi, praktis, dan premium.
+                MIQAZ berawal dari Pempek Moenz, UMKM asli Palembang yang berdiri sejak 2019. Berlandaskan kecintaan pendirinya, Munziar Munaf, terhadap kuliner tradisional Nusantara, usaha ini mengolah potensi perikanan lokal menjadi produk ikan yang bergizi, praktis, dan premium.
               </p>
               <p>
-                Pada 11 Juli 2026, Pempek Moenz resmi bertransformasi menjadi Miqaz sebagai langkah menghadirkan cita rasa warisan daerah dalam identitas yang lebih modern.
+                Pada 11 Juli 2026, Pempek Moenz resmi bertransformasi menjadi MIQAZ sebagai langkah menghadirkan cita rasa warisan daerah dalam identitas yang lebih modern.
               </p>
             </div>
 

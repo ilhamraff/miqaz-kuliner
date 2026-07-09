@@ -8,8 +8,8 @@ interface GalleryImage {
 
 const galleryImages: GalleryImage[] = [
   {
-    src: "/images/hero-product.png",
-    alt: "Premium pempek dish beautifully plated",
+    src: "/images/photo-1.webp",
+    alt: "Bersama Ibu Atalia Dr. Hj. Atalia Praratya (Ibu Cinta) pada Grand Opening Rupa Rupi Handycraft Market, 2019.",
     span: "tall",
   },
   {
@@ -61,16 +61,16 @@ export function Gallery() {
         {/* Section header */}
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-red-brand">
-            Gallery
+            GALERI
           </p>
           <h2
             id="gallery-heading"
             className="mt-3 font-heading text-3xl font-bold tracking-tight text-dark-green md:text-4xl"
           >
-            Produk Kami
+            Momen Perjalanan Miqaz
           </h2>
           <p className="mt-4 text-base leading-relaxed text-dark-green/60">
-            Dari bahan baku hingga hidangan yang disajikan — jelajahi kelezatan setiap produk Miqaz
+            Dari dapur produksi hingga berbagai kegiatan dan kolaborasi, setiap momen mencerminkan komitmen Miqaz dalam menghadirkan produk berkualitas dan membangun kepercayaan pelanggan.
           </p>
         </div>
 
