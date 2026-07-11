@@ -13,33 +13,38 @@ const galleryImages: GalleryImage[] = [
     span: "tall",
   },
   {
-    src: "/images/product-pempek.png",
-    alt: "Pempek premium with rich vinegar sauce",
+    src: "/images/photo-2.webp",
+    alt: "Berbagi perjalanan dan inspirasi bisnis kuliner lokal dalam sesi podcast bersama RMOI TV.",
     span: "normal",
   },
   {
-    src: "/images/product-otakotak.png",
-    alt: "Otak-otak panggang on rustic wooden board",
+    src: "/images/photo-3.webp",
+    alt: "Proses pengemasan setiap pesanan dilakukan dengan teliti untuk memastikan kualitas produk tetap terjaga hingga diterima pelanggan.",
     span: "normal",
   },
   {
-    src: "/images/product-rendang.png",
-    alt: "Rendang abon ikan with aromatic spices",
-    span: "wide",
-  },
-  {
-    src: "/images/product-pempek.png",
-    alt: "Close-up of freshly made pempek",
+    src: "/images/photo-4.webp",
+    alt: "Kemasan MIQAZ dirancang praktis, aman, dan siap menemani perjalanan produk ke berbagai kota di Indonesia.",
     span: "normal",
   },
   {
-    src: "/images/product-otakotak.png",
-    alt: "Grilled otak-otak ready to serve",
+    src: "/images/photo-5.webp",
+    alt: "Melayani pemesanan secara online dengan pengiriman ke berbagai daerah, sehingga cita rasa khas Palembang dapat dinikmati lebih luas.",
     span: "normal",
   },
   {
-    src: "/images/product-otakotak.png",
-    alt: "Grilled otak-otak ready to serve",
+    src: "/images/photo-6.webp",
+    alt: "Berpartisipasi dalam berbagai pameran dan bazar UMKM sebagai bagian dari upaya memperkenalkan cita rasa autentik MIQAZ kepada masyarakat.",
+    span: "normal",
+  },
+  {
+    src: "/images/photo-7.webp",
+    alt: "Momen bersama Ketua MPR RI sebagai bentuk apresiasi dan dukungan terhadap perkembangan produk kuliner lokal Indonesia.",
+    span: "normal",
+  },
+  {
+    src: "/images/photo-8.webp",
+    alt: "Di balik setiap produk MIQAZ, terdapat tim produksi yang berkomitmen menjaga kualitas, kebersihan, dan konsistensi di setiap proses.",
     span: "normal",
   },
 ];
