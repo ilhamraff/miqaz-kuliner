@@ -14,7 +14,7 @@ const galleryImages: GalleryImage[] = [
   },
   {
     src: "/images/photo-2.webp",
-    alt: "Berbagi perjalanan dan inspirasi bisnis kuliner lokal dalam sesi podcast bersama RMOI TV.",
+    alt: "Berbagi perjalanan dan inspirasi bisnis kuliner lokal dalam sesi podcast bersama RMOL TV.",
     span: "normal",
   },
   {

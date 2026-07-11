@@ -15,7 +15,7 @@ export function Hero() {
           {/* Text content */}
           <div className="order-2 lg:order-1">
             <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-yellow-brand-old">
-              Mengenal Lebih Dekat Miqaz
+              Mengenal Lebih Dekat MIQAZ
             </p>
             <h1 className="font-heading text-4xl font-bold leading-tight tracking-tight text-dark-green md:text-5xl lg:text-6xl">
               Authentic <span className="text-yellow-brand-old">Fish</span> Authentic <span className="text-yellow-brand-old">Taste</span>{" "}

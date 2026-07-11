@@ -71,7 +71,7 @@ export function WhyChoose() {
             memperahankan cita rasa khas Nusantara. Setiap produk dibuat dengan komitmen pada
             kualitas, sehingga setiap gigitan membawa kehangatan dan kekayaan rasa Indonesia."
           </p>
-          <p className="mt-4 text-base leading-relaxed text-dark-green/60 italic">— Munziar Munaf Founder Miqaz Kuliner Nusantara</p>
+          <p className="mt-4 text-base leading-relaxed text-dark-green/60 italic">— Munziar Munaf Founder MIQAZ Kuliner Nusantara</p>
         </div>
 
         {/* Feature grid */}
