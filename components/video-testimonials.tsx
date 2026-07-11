@@ -85,8 +85,8 @@ export function VideoTestimonials() {
               onClick={() => setOpenVideoId(video.id)}
               className="group relative flex flex-col overflow-hidden rounded-2xl border border-dark-green/10 bg-white shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2"
             >
-              {/* Thumbnail */}
-              <div className="relative aspect-9/16 w-full overflow-hidden bg-dark-green/5">
+              {/* Thumbnail */} 
+              <div className="relative aspect-5/4 w-full overflow-hidden bg-dark-green/5">
                 <Image
                   src={getThumbnailUrl(video.id)}
                   alt={`Thumbnail video review: ${video.title}`}

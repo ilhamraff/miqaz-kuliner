@@ -36,8 +36,8 @@ const features: FeatureCardProps[] = [
 
 function FeatureCard({ icon: Icon, title, description }: FeatureCardProps) {
   return (
-    <article className="group rounded-xl border border-transparent bg-white p-8 transition-all duration-300 hover:border-gold/20 hover:shadow-lg hover:shadow-gold/5">
-      <div className="mb-5 flex size-12 items-center justify-center rounded-lg bg-gold/10 text-gold transition-colors group-hover:bg-gold group-hover:text-white">
+    <article className="group rounded-xl border border-transparent bg-white p-8 transition-all duration-300 hover:border-yellow-brand-old/20 hover:shadow-lg hover:shadow-yellow-brand-old/5">
+      <div className="mb-5 flex size-12 items-center justify-center rounded-lg bg-yellow-brand-old/10 text-yellow-brand-old transition-colors group-hover:bg-yellow-brand-old group-hover:text-white">
         <Icon className="size-6" aria-hidden="true" />
       </div>
       <h3 className="font-heading text-lg font-semibold text-dark-green">

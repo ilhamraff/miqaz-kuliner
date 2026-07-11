@@ -67,10 +67,10 @@ export function Gallery() {
             id="gallery-heading"
             className="mt-3 font-heading text-3xl font-bold tracking-tight text-dark-green md:text-4xl"
           >
-            Momen Perjalanan Miqaz
+            Momen Perjalanan MIQAZ
           </h2>
           <p className="mt-4 text-base leading-relaxed text-dark-green/60">
-            Dari dapur produksi hingga berbagai kegiatan dan kolaborasi, setiap momen mencerminkan komitmen Miqaz dalam menghadirkan produk berkualitas dan membangun kepercayaan pelanggan.
+            Dari dapur produksi hingga berbagai kegiatan dan kolaborasi, setiap momen mencerminkan komitmen MIQAZ dalam menghadirkan produk berkualitas dan membangun kepercayaan pelanggan.
           </p>
         </div>
 

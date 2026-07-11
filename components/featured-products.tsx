@@ -77,7 +77,7 @@ export function FeaturedProducts() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Section header */}
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-widest text-gold">
+          <p className="text-sm font-semibold uppercase tracking-widest text-yellow-brand-old">
             Our Products
           </p>
           <h2

@@ -22,7 +22,7 @@ export function FinalCta() {
       </div>
 
       <div className="relative mx-auto max-w-3xl px-6 text-center lg:px-8">
-        <p className="text-sm font-semibold uppercase tracking-widest text-gold">
+        <p className="text-sm font-semibold uppercase tracking-widest text-yellow-brand">
           Siap Menikmati?
         </p>
         <h2
@@ -42,15 +42,12 @@ export function FinalCta() {
             rel="noopener noreferrer"
             className={cn(
               buttonVariants({ size: "lg" }),
-              "inline-flex items-center gap-2 bg-gold px-8 py-3 text-sm font-semibold text-white hover:bg-gold-light"
+              "inline-flex items-center gap-2 bg-yellow-brand-old px-8 py-3 text-sm font-semibold text-white hover:bg-gold-light"
             )}
           >
             <MessageCircle className="size-4" />
             Pesan via WhatsApp
           </a>
-          <p className="text-xs text-white/50">
-            Respon Cepat • Konsultasi Gratis
-          </p>
         </div>
       </div>
     </section>

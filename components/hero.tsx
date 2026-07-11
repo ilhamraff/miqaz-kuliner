@@ -14,11 +14,11 @@ export function Hero() {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           {/* Text content */}
           <div className="order-2 lg:order-1">
-            <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-gold">
+            <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-yellow-brand-old">
               Mengenal Lebih Dekat Miqaz
             </p>
             <h1 className="font-heading text-4xl font-bold leading-tight tracking-tight text-dark-green md:text-5xl lg:text-6xl">
-              Authentic <span className="text-gold">Fish</span> Authentic <span className="text-gold">Taste</span>{" "}
+              Authentic <span className="text-yellow-brand-old">Fish</span> Authentic <span className="text-yellow-brand-old">Taste</span>{" "}
               
             </h1>
             <p className="mt-6 max-w-lg text-base leading-relaxed text-dark-green/70 md:text-lg">
@@ -31,7 +31,7 @@ export function Hero() {
                 href="#products"
                 className={cn(
                   buttonVariants({ size: "lg" }),
-                  "inline-flex items-center gap-2 bg-gold px-8 py-3 text-sm font-semibold text-white hover:bg-gold-dark"
+                  "inline-flex items-center gap-2 bg-yellow-brand-old px-8 py-3 text-sm font-semibold text-white hover:bg-yellow-brand-old"
                 )}
               >
                 Jelajahi Produk

@@ -22,7 +22,7 @@ export function About() {
 
           {/* Content */}
           <div>
-            <p className="text-sm font-semibold uppercase tracking-widest text-gold">
+            <p className="text-sm font-semibold uppercase tracking-widest text-yellow-brand-old">
               Our Story
             </p>
             <h2
@@ -43,19 +43,19 @@ export function About() {
             {/* Stats */}
             <div className="mt-10 grid grid-cols-3 gap-6 border-t border-border pt-10">
               <div>
-                <p className="font-heading text-3xl font-bold text-gold">
+                <p className="font-heading text-3xl font-bold text-yellow-brand-old">
                   100%
                 </p>
                 <p className="mt-1 text-sm text-dark-green/60">Fresh Fish</p>
               </div>
               <div>
-                <p className="font-heading text-3xl font-bold text-gold">
+                <p className="font-heading text-3xl font-bold text-yellow-brand-old">
                   Halal
                 </p>
                 <p className="mt-1 text-sm text-dark-green/60">Certified</p>
               </div>
               <div>
-                <p className="font-heading text-3xl font-bold text-gold">
+                <p className="font-heading text-3xl font-bold text-yellow-brand-old">
                   3+
                 </p>
                 <p className="mt-1 text-sm text-dark-green/60">
