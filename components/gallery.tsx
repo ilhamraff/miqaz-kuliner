@@ -95,7 +95,7 @@ export function Gallery() {
               />
               {/* Hover overlay */}
               <div className="absolute inset-0 flex items-end bg-dark-green/0 p-4 transition-colors duration-300 group-hover:bg-dark-green/40">
-                <p className="translate-y-4 text-sm font-medium text-white opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+                <p className="translate-y-4 text-xs lg:text-sm font-medium text-white opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
                   {img.alt}
                 </p>
               </div>
