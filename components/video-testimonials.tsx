@@ -76,7 +76,7 @@ export function VideoTestimonials() {
         </div>
 
         {/* ── Video thumbnails grid ──────────────────────── */}
-        <div className="mt-16 grid justify-center gap-6 sm:grid-cols-2 lg:grid-cols-2 max-w-3xl mx-auto">
+        <div className="mt-16 grid grid-cols-2 justify-center gap-4 sm:gap-6 sm:grid-cols-2 max-w-3xl mx-auto">
           {videoTestimonials.map((video) => (
             <button
               key={video.id}

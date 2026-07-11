@@ -80,7 +80,7 @@ export function Gallery() {
         </div>
 
         {/* Gallery grid */}
-        <div className="mt-16 grid gap-4 md:grid-cols-3 md:auto-rows-[240px]">
+        <div className="mt-16 grid grid-cols-2 auto-rows-[180px] gap-4 md:grid-cols-3 md:auto-rows-[240px]">
           {galleryImages.map((img, index) => (
             <div
               key={index}
